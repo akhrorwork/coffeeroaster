@@ -8,6 +8,7 @@
   --preferance-bg: #f4f1eb;
   --button-hover: #66d2cf;
   --button-disabeled: #e2dedb;
+  --footer-bg: #2c343e;
 
   /* fonts */
   --title-font-family: "Fraunces", sans;
@@ -185,3 +186,59 @@ h4 {
   opacity: 0.6;
 }
 /* HEADER END */
+
+/* FOOTER START */
+.footer {
+  margin-bottom: 88px;
+}
+.footer__container {
+  background-color: var(--footer-bg);
+  display: flex;
+  align-items: center;
+  padding: 47px;
+}
+
+.site-logo {
+  margin-right: 102px;
+}
+.footer-logo {
+}
+.site-logo__image {
+}
+.footer-logo__image {
+}
+
+.footer-sitenav {
+  margin-right: auto;
+}
+.sitenav__list {
+}
+.sitenav__item {
+}
+
+.footer-sitenav .sitenav__link:hover {
+  color: var(--light-cream-bg);
+  opacity: 1;
+}
+
+.footer-sitenav .sitenav__link:active {
+  color: var(--light-cream-bg);
+  opacity: 1;
+}
+
+.footer__socials-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer__socials-item {
+}
+
+.footer__socials-link svg path {
+  transition: var(--transtion-duration);
+}
+
+.footer__socials-link:hover svg path {
+  fill: var(--pale-orange);
+}
+/* FOOTER END */
